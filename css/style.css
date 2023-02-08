@@ -34,14 +34,22 @@ footer {
     top: 0;
     left: 0;
 }
+nav {
+    height: 100%;
+}
 .nav-ul {
     height: inherit;
     display: inline-block;
-    margin-left: 66%;
+    margin-left: 77%;
     position: relative;
-    bottom: 2.5px;
+    bottom: 16px;
     font-family: 'Amaranth', sans-serif;
-    
+    line-height: 100%;
+}
+.site-title {
+    height: inherit;
+    position: relative;
+    top: 9px;
 }
 nav ul li {
     display: inline-block;
@@ -97,6 +105,7 @@ h1 {
 }
 .text {
     margin: 15px 0px;
+    text-align: justify;
 }
 .big-title {
     font-size: 40px;
