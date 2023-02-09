@@ -71,7 +71,7 @@ footer p {
     background-color: #000b207a;
 }
 .navbar-toggler-icon {
-    background-image: url(./imagenes/nav-toggler-icon.png);
+    background-image: url(../imagenes/nav-toggler-icon.png);
 }
 @media screen and (min-width: 768px) {
     .desktop-d-none {
