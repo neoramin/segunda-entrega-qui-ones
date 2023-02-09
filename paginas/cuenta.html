@@ -4,109 +4,247 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuenta</title>
-    <link rel="shortcut icon" href="imagenes/fav-icon-l2.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Reglas</title>
+    <link rel="shortcut icon" href="../imagenes/fav-icon-l2.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style-bootstrap.css">
 </head>
 <body>
-    <header class="Encabezado">
-        <nav>
-            <a href="../index.html"><h2 class="site-title">L2 EXIRIUM</h2></a>
-            <ul class="nav-ul">
-                <li>
-                    <a href="informacion.html">INFORMACIÓN</a>
-                </li>
-                <li>
-                    <a href="servidor.html">SERVIDOR</a>
-                </li>
-                <li>
-                    <a href="cuenta.html">CUENTA</a>
-                </li>
-                <li>
-                    <a href="reglas.html">REGLAS</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="position-relative">
-            <aside class="aside-left">
-                <div class="top-div">
-                    <h2>Top PVP</h2>
-                    <ol>
-                        <li>Nerek792 -3353 pvps-</li>
-                        <li>Midnir -2944 pvps-</li>
-                        <li>Aureo -2772 pvps-</li>
-                        <li>Bandida -1965 pvps-</li>
-                        <li>Riquelme -1490 pvps-</li>
-                    </ol>
+    <div class="container-fluid bg-darkblue">
+        <div class="row">
+            <div class="col bb-d-1">
+                <header>
+                    <nav class="navbar navbar-expand-sm py-3">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-reset" href="#"><h1 class="fs-4 m-0">L2 EXIRIUM</h1></a>
+                            <button class="navbar-toggler bg-darkerblue" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav text-end">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset" href="#">Información</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset" href="#">Servidor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset" href="#">Cuenta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset" href="./reglas2.html">Reglas</a>
+                            </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+        </div>
+        <div class="row desktop-d-none py-2">
+            <div class="col-6">
+                <div class="dropdown d-flex justify-content-end">
+                    <button class="btn btn-secondary dropdown-toggle bttn-mw bg-darkerblue" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Rankings
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="px-3">
+                            <div>
+                                <h3 class="text-center dd-item-mw">Top PVP</h3>
+                                <ol class="px-4">
+                                    <li>Nerek792 -3353 pvps-</li>
+                                    <li>Midnir -2944 pvps-</li>
+                                    <li>Aureo -2772 pvps-</li>
+                                    <li>Bandida -1965 pvps-</li>
+                                    <li>Riquelme -1490 pvps-</li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3 class="text-center">Top PK</h3> 
+                                <ol class="px-4">
+                                    <li>XxsonicxX -653 pks-</li>
+                                    <li>pablo62 -425 pks-</li>
+                                    <li>-Nerea- -369 pks-</li>
+                                    <li>Vainilla -292 pks-</li>
+                                    <li>DestroyerX -160 pks-</li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3 class="text-center">Top Clan</h3>
+                                <ol class="px-4">
+                                    <li>Imperium -8 lvl-</li>
+                                    <li>Comunismo -8 lvl-</li>
+                                    <li>Oxivitue -8 lvl-</li>
+                                    <li>RadiusX -8 lvl-</li>
+                                    <li>Blosswind -8 lvl-</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="top-div">
-                    <h2>Top PK</h2> 
-                    <ol>
-                        <li>XxsonicxX -653 pks-</li>
-                        <li>pablo62 -425 pks-</li>
-                        <li>-Nerea- -369 pks-</li>
-                        <li>Vainilla -292 pks-</li>
-                        <li>DestroyerX -160 pks-</li>
-                    </ol>
+            </div>
+            <div class="col-6">
+                <div class="dropdown d-flex justify-content-start">
+                    <button class="btn btn-secondary dropdown-toggle bttn-mw bg-darkerblue" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Gestión
+                    </button>
+                    <ul class="dropdown-menu">
+                        <div class="px-3">
+                            <div>
+                                <h3 class="text-center">Donaciones</h3>
+                                <img class="rounded mx-auto d-block" src="../imagenes/donacion.png" width="200px" height="auto">
+                            </div>
+                            <div>
+                                <h3 class="text-center">Vote</h3>
+                                <img class="rounded mx-auto d-block" src="../imagenes/l2brazil.png">
+                                <img class="rounded mx-auto d-block" src="../imagenes/topzone.png">
+                            </div>
+                            <div>
+                                <h3 class="text-center">Soporte</h3>
+                                <img class="rounded mx-auto d-block" src="../imagenes/soporte.jpg" width="200px" height="auto" >
+                            </div>
+                        </div>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-8 offset-md-3 offset-lg-2">
+                <div>
+                    <img src="../imagenes/background.jpg" class="bg-img rounded" alt="">
                 </div>
-                <div class="top-div">
-                    <h2>Top Clan</h2>
-                    <ol>
-                        <li>Imperium -8 lvl-</li>
-                        <li>Comunismo -8 lvl-</li>
-                        <li>Oxivitue -8 lvl-</li>
-                        <li>RadiusX -8 lvl-</li>
-                        <li>Blosswind -8 lvl-</li>
-                    </ol>
+            </div>
+        </div>
+        <div class="row desktop-d-none">
+            <div class="col-lg-8 col-md-6">
+                <section>
+                    <article>
+                        <div class="bg-superdarkblue rounded my-3 p-4">
+                            <div class="div-cuenta">
+                                <div class="div-form">
+                                    <form class="text-center">
+                                        <h2 class="display-3">Cuenta</h2>
+                                        <label for="nombres">Nombre de Usuario</label>
+                                        <input class="a-input fc-contrast" type="text" name="nombres" id="nombres" placeholder="neoramin">
+                                        <label for="emain">Email</label>
+                                        <input class="a-input fc-contrast" type="email" name="email" id="email" placeholder="example@gmail.com">
+                                        <label for="confirmacion-email">Confirmar Email</label>
+                                        <input class="a-input fc-contrast" type="email" name="confirmacion-email" id="confirmacion-email" placeholder="example@gmail.com">
+                                        <label for="contraseña">Crear Contraseña</label>
+                                        <input class="a-input fc-contrast" type="password" name="contraseña" id="contraseña" placeholder="password">
+                                        <label for="confirmacion-contraseña">Confirmar Contraseña</label>
+                                        <input class="a-input fc-contrast" type="password" name="confirmacion-contraseña" id="confirmacion-contraseña" placeholder="password">
+                                        <p>Al registrarme indico que estoy de acuerdo con los <a href="reglas.html">Terminos y Condiciones.</a></p>
+                                        <input class="a-submit" type="submit" value="Registrar">
+                                        <p><a href="#">Olvidé mi contraseña</a></p>
+                                    </form>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+        <div class="row mobile-d-none">
+            <div class="col-lg-2 col-md-3">
+                <div class="p-2 bg-superdarkblue div-side-content rounded">
+                    <div>
+                        <h3 class="text-center">Top PVP</h3>
+                        <ol class="">
+                            <li>Nerek792 -3353<strong>pvps</strong>-</li>
+                            <li>Midnir -2944<strong>pvps</strong>-</li>
+                            <li>Aureo -2772<strong>pvps</strong>-</li>
+                            <li>Bandida -1965<strong>pvps</strong>-</li>
+                            <li>Riquelme -1490<strong>pvps</strong>-</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3 class="text-center">Top PK</h3> 
+                        <ol class="">
+                            <li>XxsonicxX -653<strong>pks</strong>-</li>
+                            <li>pablo62 -425<strong>pks</strong>-</li>
+                            <li>-Nerea- -369<strong>pks</strong>-</li>
+                            <li>Vainilla -292<strong>pks</strong>-</li>
+                            <li>DestroyerX -160<strong>pks</strong>-</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <h3 class="text-center">Top Clan</h3>
+                        <ol class="mb-0">
+                            <li>Imperium -8<strong>lvl</strong>-</li>
+                            <li>Comunismo -8<strong>lvl</strong>-</li>
+                            <li>Oxivitue -8<strong>lvl</strong>-</li>
+                            <li>RadiusX -8<strong>lvl</strong>-</li>
+                            <li>Blosswind -8<strong>lvl</strong>-</li>
+                        </ol>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-8 col-md-6">
+                <section>
+                    <article >
+                        <div class="bg-superdarkblue rounded my-3 p-4 max-height-content-large">
+                            <div class="div-cuenta">
+                                <div class="div-form py-3">
+                                    <form class="text-center">
+                                        <h2 class="display-4">Cuenta</h2>
+                                        <label for="nombres">Nombre de Usuario</label>
+                                        <input class="a-input fc-contrast" type="text" name="nombres" id="nombres" placeholder="neoramin">
+                                        <label for="emain">Email</label>
+                                        <input class="a-input fc-contrast" type="email" name="email" id="email" placeholder="example@gmail.com">
+                                        <label for="confirmacion-email">Confirmar Email</label>
+                                        <input class="a-input fc-contrast" type="email" name="confirmacion-email" id="confirmacion-email" placeholder="example@gmail.com">
+                                        <label for="contraseña">Crear Contraseña</label>
+                                        <input class="a-input fc-contrast" type="password" name="contraseña" id="contraseña" placeholder="password">
+                                        <label for="confirmacion-contraseña">Confirmar Contraseña</label>
+                                        <input class="a-input fc-contrast" type="password" name="confirmacion-contraseña" id="confirmacion-contraseña" placeholder="password">
+                                        <p>Al registrarme indico que estoy de acuerdo con los <a href="reglas.html">Terminos y Condiciones.</a></p>
+                                        <input class="a-submit" type="submit" value="Registrar">
+                                        <p><a href="#">Olvidé mi contraseña</a></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <div class="col-lg-2 col-md-3 d-flex justify-content-center">
+                <div class="bg-superdarkblue div-side-content rounded">
+                    <div>
+                        <h3 class="text-center">Donaciones</h3>
+                        <div class="px-3">
+                            <img class="rounded mx-auto d-block bg-img" src="../imagenes/donacion.png">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-center">Vote</h3>
+                        <div class="px-3">
+                            <img class="rounded mx-auto d-block" src="../imagenes/l2brazil.png">
+                            <img class="rounded mx-auto d-block" src="../imagenes/topzone.png">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-center">Soporte</h3>
+                        <div class="px-3">
+                            <img class="rounded mx-auto d-block bg-img" src="../imagenes/soporte.jpg">
+                        </div>
+                    </div>
                 </div>
-            </aside>
-            <aside class="aside-right">
-                <div class="div-vote">
-                    <h2>Donaciones</h2>
-                    <img class="imagenes-right" src="../imagenes/donacion.png">
-                </div>
-                <div class="div-vote">
-                    <h2>Vote</h2>
-                    <img class="img-vote" src="../imagenes/l2brazil.png">
-                    <img class="img-vote" src="../imagenes/topzone.png">
-                </div>
-                <div class="div-vote">
-                    <h2>Soporte</h2>
-                    <img class="imagenes-right" src="../imagenes/soporte.jpg">
-                </div>
-            </aside>
-            <article class="article-cuenta">
-                <div class="div-cuenta">
-                    <form class="cuenta-form">
-                        <h1 class="big-title">Cuenta</h1>
-                        <label for="nombres">Nombre de Usuario</label>
-                        <input class="a-input" type="text" name="nombres" id="nombres" placeholder="neoramin">
-                        <label for="emain">Email</label>
-                        <input class="a-input" type="email" name="email" id="email" placeholder="example@gmail.com">
-                        <label for="confirmacion-email">Confirmar Email</label>
-                        <input class="a-input" type="email" name="confirmacion-email" id="confirmacion-email" placeholder="example@gmail.com">
-                        <label for="contraseña">Crear Contraseña</label>
-                        <input class="a-input" type="password" name="contraseña" id="contraseña" placeholder="password">
-                        <label for="confirmacion-contraseña">Confirmar Contraseña</label>
-                        <input class="a-input" type="password" name="confirmacion-contraseña" id="confirmacion-contraseña" placeholder="password">
-                        <p class="content">Al registrarme indico que estoy de acuerdo con los <a href="reglas.html">Terminos y Condiciones.</a></p>
-                        <input class="a-input" type="submit" value="Registrar">
-                        <p class="content"><a href="#">Olvidé mi contraseña</a></p>
-                    </form>
-                </div>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>Web creada por Estefanía Quiñones para la primer entrega del curso de Desarrollo Web dictada por <a href="https://www.coderhouse.com">Coderhouse</a></p>
-    </footer>
+            </div>
+        </div>
+        <div class="row bg-superdarkblue">
+            <div class="col">
+                <footer class="text-center">
+                    <p class="p-4 m-0">Web creada por Estefanía Quiñones para la primer entrega del curso de Desarrollo Web dictada por <a href="https://www.coderhouse.com">Coderhouse</a></p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
