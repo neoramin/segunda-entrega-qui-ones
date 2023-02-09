@@ -103,3 +103,27 @@ footer p {
         margin: 0% 15%;
     }
 }
+.jump-hover {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+.jump-hover:hover {
+    transform: translateY(-10px);
+}
+.bg-hover:hover {
+    background-color:#001131;
+}
+@keyframes slide-in-top {
+    from {
+        transform: translateY(-1200px);
+    }
+    to {
+        transform:translateY(0px);
+    }
+}
+.animation-slide-in-top {
+    animation: slide-in-top 1s ease 0.5s 1 normal none;
+}
