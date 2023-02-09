@@ -1,0 +1,105 @@
+* {
+    color: aliceblue;
+}
+.fc-contrast {
+    color:#001131;
+}
+.bg-superdarkblue {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-darkerblue {
+    background-color: #001131;
+}
+.bg-darkblue {
+    background-color: #001844;
+}
+.bg-blue {
+    background-color: #00205a;
+}
+.dropdown-menu {
+    background-color: #001131 !important;
+}
+.bb-d-1 {
+    border-bottom: black solid 2px;
+}
+.bttn-mw {
+    min-width: 130px;
+}
+button:hover, button:focus {
+    background-color:#00205a !important;
+}
+.dd-item-mw {
+    min-width: 205px;
+}
+.mobile-d-none {
+    display: none;
+}
+.bg-img {
+    width: 100%;
+}
+.div-side-content {
+    position: relative;
+    top: -30px;
+    max-width: 240px;
+    height: fit-content;
+    padding-bottom: 15px;
+}
+.max-height-content-large {
+    max-height: 450px;
+    overflow-y: scroll;
+}
+footer p {
+    font-size: 12px;
+}
+.a-input {
+    width: 70%;
+    margin: 0% 15% 2%;
+    display: block;
+}
+.a-submit {
+    background-color: #00205a;
+    width: 40%;
+    margin: 0% 30% 2%;
+}
+.div-cuenta {
+    background-image: url(../imagenes/imagen-cuenta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-form {
+    background-color: #000b207a;
+}
+.navbar-toggler-icon {
+    background-image: url(./imagenes/nav-toggler-icon.png);
+}
+@media screen and (min-width: 768px) {
+    .desktop-d-none {
+        display: none;
+    }
+    .mobile-d-none {
+        display: flex;
+    }
+    .max-height-content-large {
+        max-height: 800px;
+        overflow-y: scroll;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .a-input {
+        width: 60%;
+        margin: 0% 20% 2%;
+        display: block;
+    }
+    .a-button {
+        background-color: #00205a;
+        width: 40%;
+        margin: 0% 30% 2%;
+    }    
+}
+@media screen and (min-width: 990px) {    
+    .div-form {
+        margin: 0% 15%;
+    }
+}
