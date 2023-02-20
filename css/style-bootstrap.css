@@ -1,11 +1,35 @@
 * {
     color: aliceblue;
 }
+
+body {
+    background-color: #001844;
+}
+
+header {
+    background-color: #001844;
+    border-bottom: black solid 2px;
+    padding: 0.5rem 0;
+}
+
+a {
+    color: inherit !important;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
 .fc-contrast {
     color:#001131;
 }
 .bg-superdarkblue {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #00000080;
 }
 .bg-darkerblue {
     background-color: #001131;
@@ -19,37 +43,65 @@
 .dropdown-menu {
     background-color: #001131 !important;
 }
-.bb-d-1 {
-    border-bottom: black solid 2px;
-}
+
 .bttn-mw {
     min-width: 130px;
 }
+
 button:hover, button:focus {
     background-color:#00205a !important;
 }
+
 .dd-item-mw {
     min-width: 205px;
 }
+
 .mobile-d-none {
     display: none;
 }
+
+.content-img {
+    width: 80%;
+}
+
 .bg-img {
     width: 100%;
 }
+
+.main-column {
+    width: 65%;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.side-column {
+    width: 15%;
+}
+
 .div-side-content {
+    background-color: #00000080 ;
     position: relative;
     top: -30px;
-    max-width: 240px;
+    width: 100%;
     height: fit-content;
-    padding-bottom: 15px;
+    padding: 16px;
 }
+
 .max-height-content-large {
     max-height: 450px;
     overflow-y: scroll;
 }
+
+footer {
+    background-color: #00000080;
+    margin-top: 1rem;
+}
+
 footer p {
     font-size: 12px;
+    text-align: center;
 }
 .a-input {
     width: 70%;
