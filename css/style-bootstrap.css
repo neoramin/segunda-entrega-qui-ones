@@ -1,5 +1,6 @@
 * {
     color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -19,10 +20,32 @@ a {
 h1 {
     margin: 0;
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 h2, h3 {
+    margin-top: 1rem;
     text-align: center;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 0.125rem 0;
+}
+
+li span {
+    margin-left: 10px;
+}
+.nav-item  {
+    justify-content: end;
 }
 
 .fc-contrast {
@@ -69,7 +92,7 @@ button:hover, button:focus {
 }
 
 .main-column {
-    width: 65%;
+    width: 95%;
 }
 
 .mx-auto {
@@ -86,7 +109,7 @@ button:hover, button:focus {
     top: -30px;
     width: 100%;
     height: fit-content;
-    padding: 16px;
+    padding: 14px;
 }
 
 .max-height-content-large {
@@ -125,36 +148,6 @@ footer p {
 .navbar-toggler-icon {
     background-image: url(../imagenes/nav-toggler-icon.png);
 }
-@media screen and (min-width: 768px) {
-    .desktop-d-none {
-        display: none;
-    }
-    .mobile-d-none {
-        display: flex;
-    }
-    .max-height-content-large {
-        max-height: 800px;
-        overflow-y: scroll;
-    }
-    footer p {
-        font-size: 16px;
-    }
-    .a-input {
-        width: 60%;
-        margin: 0% 20% 2%;
-        display: block;
-    }
-    .a-button {
-        background-color: #00205a;
-        width: 40%;
-        margin: 0% 30% 2%;
-    }    
-}
-@media screen and (min-width: 990px) {    
-    .div-form {
-        margin: 0% 15%;
-    }
-}
 .jump-hover {
     transition-property: transform;
     transition-duration: 0.3s;
@@ -178,4 +171,49 @@ footer p {
 }
 .animation-slide-in-top {
     animation: slide-in-top 1s ease 0.5s 1 normal none;
+}
+div iframe {
+    width: 90%;
+    height: 150px;
+}
+@media screen and (min-width: 425px) {
+    div iframe {
+        width: 70%;
+        height: 250px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .desktop-d-none {
+        display: none;
+    }
+    .mobile-d-none {
+        display: flex;
+    }
+    .max-height-content-large {
+        max-height: 800px;
+    }
+    div iframe {
+        height: 300px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .a-input {
+        width: 60%;
+        margin: 0% 20% 2%;
+        display: block;
+    }
+    .a-button {
+        background-color: #00205a;
+        width: 40%;
+        margin: 0% 30% 2%;
+    }
+    .main-column {
+        width: 65%;
+    }
+}
+@media screen and (min-width: 990px) {    
+    .div-form {
+        margin: 0% 15%;
+    }
 }
