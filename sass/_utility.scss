@@ -1,0 +1,17 @@
+.content-img {
+    width: 80%;
+}
+.bg-img {
+    width: 100%;
+}
+.mx-auto {
+    margin: 0 auto;
+}
+.max-height-content-large {
+    max-height: 450px;
+    overflow-y: scroll;
+
+    @media screen and (min-width: 768px) {
+        max-height: 800px;
+    }
+}

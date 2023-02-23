@@ -1,0 +1,63 @@
+.main-column {
+    width: 95%;
+    
+    @media screen and (min-width: 768px) {
+        width: 65%;
+    }
+}
+.side-column {
+    width: 15%;
+}
+.div-side-content {
+    background-color: $superdarkblue;
+    position: relative;
+    top: -30px;
+    width: 100%;
+    height: fit-content;
+    padding: 14px;
+}
+.a-input {
+    width: 70%;
+    margin: 0% 15% 2%;
+    display: block;
+
+    @media screen and (min-width: 768px) {
+        width: 60%;
+        margin: 0% 20% 2%;
+        display: block;
+    }
+}
+.a-button {
+    @media screen and (min-width: 768px) {
+        background-color: $blue;
+        width: 40%;
+        margin: 0% 30% 2%;
+    }
+}
+.a-submit {
+    background-color: $blue;
+    width: 40%;
+    margin: 0% 30% 2%;
+}
+.div-cuenta {
+    background-image: url(../imagenes/imagen-cuenta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-form {
+    background-color: $superdarkblue;
+
+    @media screen and (min-width: 990px) {    
+        margin: 0% 15%;
+    }
+}
+.navbar-toggler-icon {
+    background-image: url(../imagenes/nav-toggler-icon.png);
+}
+.bttn-mw {
+    min-width: 130px;
+}
+.dropdown-menu {
+    background-color: $darkerblue !important;
+}

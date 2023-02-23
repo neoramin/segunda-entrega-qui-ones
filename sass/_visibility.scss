@@ -1,0 +1,12 @@
+.desktop-d-none {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+.mobile-d-none {
+    display: none;
+    
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
