@@ -138,6 +138,106 @@ footer {
 .dropdown-menu {
   background-color: #001131 !important; }
 
+.donar {
+  background-image: url(../imagenes/donacion.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 100%;
+  height: 70px;
+  margin: 0px auto; }
+  @media screen and (min-width: 900px) {
+    .donar {
+      height: 100px; } }
+  @media screen and (min-width: 1160px) {
+    .donar {
+      height: 130px; } }
+  @media screen and (min-width: 1440px) {
+    .donar {
+      height: 160px; } }
+  @media screen and (min-width: 2000px) {
+    .donar {
+      height: 230px; } }
+  @media screen and (min-width: 2560px) {
+    .donar {
+      height: 300px; } }
+
+.votebrazil {
+  background-image: url(../imagenes/l2brazil.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  margin: 0px auto; }
+  @media screen and (min-width: 900px) {
+    .votebrazil {
+      height: 70px; } }
+  @media screen and (min-width: 1160px) {
+    .votebrazil {
+      height: 100px; } }
+  @media screen and (min-width: 1440px) {
+    .votebrazil {
+      height: 130px; } }
+  @media screen and (min-width: 2000px) {
+    .votebrazil {
+      height: 200px; } }
+  @media screen and (min-width: 2560px) {
+    .votebrazil {
+      height: 270px; } }
+
+.votetopzone {
+  background-image: url(../imagenes/topzone.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  margin: 0px auto; }
+  @media screen and (min-width: 900px) {
+    .votetopzone {
+      height: 70px; } }
+  @media screen and (min-width: 1160px) {
+    .votetopzone {
+      height: 100px; } }
+  @media screen and (min-width: 1440px) {
+    .votetopzone {
+      height: 130px; } }
+  @media screen and (min-width: 2000px) {
+    .votetopzone {
+      height: 200px; } }
+  @media screen and (min-width: 2560px) {
+    .votetopzone {
+      height: 270px; } }
+
+.soporte {
+  background-image: url(../imagenes/soporte.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 100%;
+  height: 70px;
+  margin: 0px auto; }
+  @media screen and (min-width: 900px) {
+    .soporte {
+      height: 100px; } }
+  @media screen and (min-width: 1160px) {
+    .soporte {
+      height: 130px; } }
+  @media screen and (min-width: 1440px) {
+    .soporte {
+      height: 160px; } }
+  @media screen and (min-width: 2000px) {
+    .soporte {
+      height: 230px; } }
+  @media screen and (min-width: 2560px) {
+    .soporte {
+      height: 300px; } }
+
 .content-img {
   width: 80%; }
 

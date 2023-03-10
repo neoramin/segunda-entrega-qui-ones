@@ -61,3 +61,16 @@
 .dropdown-menu {
     background-color: $darkerblue !important;
 }
+
+.donar {
+    @include side-column-img (url(../imagenes/donacion.png));
+}
+.votebrazil {
+    @include side-column-img (url(../imagenes/l2brazil.png), 80%, 40px, contain);
+}
+.votetopzone {
+    @include side-column-img (url(../imagenes/topzone.png), 80%, 40px, contain);
+}
+.soporte {
+    @include side-column-img (url(../imagenes/soporte.jpg));
+}

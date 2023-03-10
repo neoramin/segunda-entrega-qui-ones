@@ -1,0 +1,26 @@
+@mixin side-column-img ($imgurl, $width:100%, $height:70px,$bsize:cover){
+    $height-default:$height;
+    background-image: $imgurl;
+    background-position: center;
+    background-size: $bsize;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: $width;
+    height: $height-default;
+    margin: 0px auto;
+    @media screen and (min-width:900px) {
+        height: ($height-default + 30px);
+    }
+    @media screen and (min-width:1160px) {
+        height: ($height-default + 60px);
+    }
+    @media screen and (min-width:1440px) {
+        height: ($height-default + 90px);
+    }
+    @media screen and (min-width:2000px) {
+        height: ($height-default + 160px);
+    }
+    @media screen and (min-width:2560px) {
+        height: ($height-default + 230px);
+    }
+}
